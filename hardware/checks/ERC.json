@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-16T00:08:27",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/33f58d48-bb60-443d-9ff2-d2c2a2858628",
+            "violations": []
+        },
+        {
+            "path": "/esp32_supervisor/",
+            "uuid_path": "/33f58d48-bb60-443d-9ff2-d2c2a2858628/b53bbba1-2dd9-4bf0-9b88-e8aaad568d6a",
+            "violations": []
+        },
+        {
+            "path": "/gnss/",
+            "uuid_path": "/33f58d48-bb60-443d-9ff2-d2c2a2858628/e0bb509f-4a58-460b-8400-e017edeb00ef",
+            "violations": []
+        },
+        {
+            "path": "/hat_id_eeprom/",
+            "uuid_path": "/33f58d48-bb60-443d-9ff2-d2c2a2858628/727c1057-5bb5-406f-800e-b19be3c1a739",
+            "violations": []
+        },
+        {
+            "path": "/pi_interface/",
+            "uuid_path": "/33f58d48-bb60-443d-9ff2-d2c2a2858628/72321694-e8b9-42f8-91eb-8682de3c2466",
+            "violations": []
+        }
+    ],
+    "source": "Argus-RPI-HAT.kicad_sch"
+}
